@@ -10,7 +10,7 @@ const Navigation = () => {
     {
       path: "/",
       element: <ItemListContainer />,
-    },
+    }, 
     {
       path: "/item/:idProduct",
       element: <ItemDetailContainer />,
