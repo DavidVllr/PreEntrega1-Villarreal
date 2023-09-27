@@ -2,14 +2,13 @@ import "./styles.css";
 import { useState } from "react";
 
 const CartWidget = () => {
+  const [count] = useState(0);
 
-    const [count , setcount] = useState(0)
-
-    return (
-        <div className="cajaCarrito">
-            <i className="fa-solid fa-cart-shopping"></i>
-            {count}
-        </div>
-    );
-}
+  return (
+    <div className="cajaCarrito">
+      {count}
+      <i className="fa-solid fa-cart-shopping"></i>
+    </div>
+  );
+};
 export default CartWidget;

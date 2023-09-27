@@ -1,19 +1,23 @@
-.cajaCarrito{
-    position: absolute;
-    width: 100%;
+.cajaCarrito {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: auto;
     height: auto;
     top: 10px;
-    right: -80%;
-    color: white;
+    color: rgb(163, 116, 116);
     font-size: 25px;
 }
-.fa-solid{
+
+.fa-solid {
     font-size: 25px;
     padding: 10px;
-    color: white;
+    color: rgb(163, 116, 116);
     cursor: pointer;
-} 
-.fa-solid:hover{
+}
+
+.fa-solid:hover {
     color: rgba(255, 0, 0, 0.363);
     transition: 1s;
 }

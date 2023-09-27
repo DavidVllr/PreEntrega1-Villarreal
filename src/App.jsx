@@ -1,14 +1,13 @@
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar"
-import ItemListContainer from "./components/itemListContainer/ItemListContainer";
+import Navigation from "./routes/Navigation";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
-
   return (
-    <main>
-      <Navbar/>
-      <ItemListContainer title={<h1>Tasy<span>Dv</span></h1>} />
-    </main>
+    <>
+      <Navbar />
+      <Navigation />
+    </>
   );
 }
 export default App;

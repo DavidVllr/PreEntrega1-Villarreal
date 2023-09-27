@@ -1,0 +1,36 @@
+.volver {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: black;
+    font-size: 18px;
+}
+
+.volver .btn2 {
+    text-decoration: none;
+    font-family: Raleway;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fffefb;
+    background: linear-gradient(90deg, #db7d35 0%, #f4a261 100%);
+    padding: 12px 33px;
+    border: solid #f4a261 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 1260ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.volver .btn2:hover {
+    transition: 1260ms;
+    padding: 10px 55px;
+    transform: translateY(-11px);
+    background: linear-gradient(90deg, #db7d35 0%, #f4a261 100%);
+    color: #fff5ed;
+    border: solid 2px #8a4d22;
+}
